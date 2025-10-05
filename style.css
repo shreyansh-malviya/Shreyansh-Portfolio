@@ -302,8 +302,7 @@ footer {
     h2 {
         font-size: 2rem;
     }
-    .projects-grid,
-    .gallery-grid {
+    .projects-grid, .gallery-grid {
         grid-template-columns: 1fr;
     }
     .contact-links {
@@ -317,10 +316,8 @@ footer {
 
     .hero-content {
         text-align: center;
-    }
-
-    .hero-content {
         justify-content: center;
+        margin-left:0px;
     }
 
     .hero-buttons {
@@ -338,7 +335,7 @@ footer {
     .image-wrapper {
         width: 250px;
         height: 250px;
-        margin: 0 0 0 25px;
+        margin: 0 0 0 0px;
     }
 }
 @media (max-width: 480px) {
